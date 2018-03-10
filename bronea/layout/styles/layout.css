@@ -42,7 +42,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:150px 0;}
+#pageintro{padding:300px 0;}
 
 #pageintro article{}
 #pageintro article div{margin-bottom:80px;}
@@ -119,6 +119,15 @@ File: Layout CSS
 #copyright{padding:20px 0;}
 #copyright *{margin:0; padding:0;}
 
+/* Sign Up
+--------------------------------------------------------------------------------------------------------------- */
+#signup{padding:120px 0;}
+
+#signup form{display:block; position:relative; width:60%; margin:0 auto;}
+#signup input, #signup button{display:block; height:50px; border:solid;}
+#signup input{width:100%; padding:5px 50px 5px 10px; border-width:1px; font-size:16px;}
+#signup button{position:absolute; top:1px; right:1px; width:48px; height:48px; border-width:0 0 0 1px; font-size:22px; cursor:pointer;}
+#signup button em{display:none;}
 
 /* Transition Fade
 This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
@@ -199,6 +208,11 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
 
+/* Sign Up */
+#signup input, #signup button{color:#FFFFFF; background-color:transparent; border-color:#F2F2F2;}
+#signup form:hover input, #signup input:focus{color:#888888; background-color:#FFFFFF; border-color:#684568;}
+#signup form:hover button, #signup button:hover{color:#684568;}
+#signup *[placeholder]{color:#FFFFFF; opacity:1;}
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
@@ -364,6 +378,8 @@ table a, #comments a{background-color:inherit;}
 	#pageintro article div p:first-of-type{margin-bottom:20px; font-size:18px;}
 
 	.services article{max-width:320px;}
+
+	#signup form{width:100%;}
 
 	.container, #footer{padding-bottom:50px;}/* Not neccessary - just looks better */
 }
