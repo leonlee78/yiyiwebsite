@@ -35,8 +35,9 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin-top:25px;}
-#header #logo *{margin:0; padding:0; line-height:1;}
+#header #logo{margin-top:10px; margin-left:10px;}
+#header #subLogo{margin-top:10px; margin-left:10px; display: inline; margin-top:30px; margin-left:10px; color:#7D1517}
+#header #logo *{margin:0; padding:0; line-height:1; height: 60px}
 #header #logo h1{font-size:32px; font-variant:small-caps;}
 
 
@@ -232,16 +233,16 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#D01818;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55); background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhJREFUeNpiYGBgePz//38GRhABAgABBgBFTAbfCBNE2AAAAABJRU5ErkJggg==");}
+.overlay::after{color:inherit; background-color:rgba(255,255,255,.01); background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhJREFUeNpiYGBgePz//38GRhABAgABBgBFTAbfCBNE2AAAAABJRU5ErkJggg==");}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#D01818; border-color:#D01818;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
 /* Rows */
-.row0, .row0 a{color:#7F7F7F;}
+.row0, .row0 a{color:#F3F3F3;}
 .row0{border-color:#D01818;}
-.row1{color:#FFFFFF; background-color:rgba(37,37,37,.5);/* #252525 */}
+.row1{color:#FFFFFF; background-color:rgba(255,255,255,.3);/* #252525 */}
 .row2{color:#141414; background-color:#F3F3F3;}
 .row3{color:#141414; background-color:#FFFFFF;}
 .row4{color:#7F7F7F; background-color:#010101;}
@@ -254,7 +255,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#D01818;}
 
 
 /* Header */
-#header #logo h1 a{color:inherit; background-color:inherit;}
+#header #logo h1 a{color:inherit; background-color:inherit; width: 40px}
 
 
 /* Content Area */
